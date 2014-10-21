@@ -59,6 +59,10 @@ div.gmap {
 	width: 100%;
 }
 
+.pricing-table {
+	border: none;
+}
+
 .pricing-table .price {
 	font-size: 1em;
 }
@@ -105,15 +109,23 @@ div.gmap {
 	height: 100%;
 }
 
- {
-	height: 205px;
+.pricing-table .bullet-item {
+	background: none;
+	color: #fff;
+	border-bottom: none;
+}
+
+.pricing-table .bullet-item:nth-child(3) {
+	background: none;
+	color: #fff;
+	border-top: dotted 1px #dddddd;
 }
 
 .pricing-table .menu7,
 .pricing-table .menu9,
 .pricing-table .menu10,
 .pricing-table .menu12 {
-	color: #333;
+	color: #fff;
 }
 
 .button {
