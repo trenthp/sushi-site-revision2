@@ -1,0 +1,176 @@
+body {
+	background: #333;
+}
+
+[data-magellan-expedition] {
+	background: rgba(0,0,0,.0);
+	position: absolute;
+	margin: 5px 0 0 30px;
+}
+
+dl.sub-nav {
+	width: 240px;
+	background: rgba(0,0,0,.5);
+	padding: 8px;
+	color: red;
+}
+
+.sub-nav dd a {
+	color: #d8d8d8;
+}
+
+.sub-nav dd a:hover {
+	color: red;
+}
+
+.sub-nav dd.active a {
+	background: rgba(0,0,0,.8);
+	color: #d8d8d8;
+}
+
+.sub-nav dd.active a:hover {
+	background: rgba(0,0,0,.8);
+	color: red;
+}
+
+nav img {
+	float: left;
+}
+
+header {
+	margin-top: 50px;
+}
+
+hr {
+	border: solid red;
+	border-width: 1px 0 0;
+	clear: both;
+	margin: 1.25rem 0 1.1875rem;
+	height: 0;
+}
+
+div.gmap {
+	height: 344px;
+	width: 100%;
+}
+
+#gmap {
+	height: 100%;
+	width: 100%;
+}
+
+.pricing-table .price {
+	font-size: 1em;
+}
+
+.panel h4 {
+	padding: 10px;
+}
+
+.menuimg1 .panel,
+.menuimg2 .panel {
+	background: rgba(255,255,255,.1);
+	border-color: rgba(255,255,255,.1);
+}
+
+.menu7,
+.menu9,
+.menu10,
+.menu12 {
+	text-align: center;
+}
+
+.menu7 h4,
+.pricing-table .menu7 {
+	background: #ffbe1d;
+}
+
+.menu9 h4,
+.pricing-table .menu9 {
+	background: #0faaef;
+}
+
+.menu10 h4,
+.pricing-table .menu10 {
+	background: #7d3f67;
+}
+
+.menu12 h4,
+.pricing-table .menu12 {
+	background: #36c746;
+}
+
+.menuimg1 img {
+	width: 100%;
+	height: 100%;
+}
+
+ {
+	height: 205px;
+}
+
+.pricing-table .menu7,
+.pricing-table .menu9,
+.pricing-table .menu10,
+.pricing-table .menu12 {
+	color: #333;
+}
+
+.button {
+	background: #2a2a2a;
+}
+
+.button-group > * > button, .button-group > * .button {
+	border-right: 1px solid;
+	border-color: #333;
+}
+
+.button:hover {
+	background: #3a3a3a;
+	color: red;
+}
+
+.accordion .content.active {
+	background: #2a2a2a;
+	color: #fff;
+}
+
+.content img {
+	margin-bottom: 15px;
+}
+
+ul.social {
+display: block;
+float: right;
+margin-bottom: 8px;
+}
+
+ul.social li {
+list-style: none;
+display: block;
+float: left;
+margin-left: 10px;
+}
+
+ul.social li a {
+display: block;
+height: 50px;
+width: 50px;
+background: url(../img/social.png) no-repeat center 0;
+}
+
+ul.social li a.twitter {
+background-position: center 0;
+}
+
+ul.social li a.facebook {
+background-position: center -200px;
+}
+
+ul.social li a.mail {
+background-position: center -400px;
+}
+
+ul.social li a:hover {
+opacity: 0.8;
+}
