@@ -1,5 +1,5 @@
 body {
-	background: #333;
+	background: url(../img/miniwaves.png);
 }
 
 [data-magellan-expedition] {
@@ -13,6 +13,16 @@ dl.sub-nav {
 	background: rgba(0,0,0,.5);
 	padding: 8px;
 	color: red;
+}
+
+.panel h1, 
+.panel h2, 
+.panel h3, 
+.panel h4, 
+.panel h5, 
+.panel h6,
+.panel p {
+color: #fff;
 }
 
 .sub-nav dd a {
@@ -67,14 +77,22 @@ div.gmap {
 	font-size: 1em;
 }
 
+form .panel {
+	background: none;
+	border: none;
+}
+
+.panel {
+	background: rgba(0,0,0,.6);
+}
+
 .panel h4 {
 	padding: 10px;
 }
 
 .menuimg1 .panel,
 .menuimg2 .panel {
-	background: rgba(255,255,255,.1);
-	border-color: rgba(255,255,255,.1);
+	height: 230px;
 }
 
 .menu7,
