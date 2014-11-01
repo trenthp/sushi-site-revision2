@@ -1,5 +1,5 @@
 body {
-	background: url(../img/miniwaves.png);
+	background: url(../img/miniwaves.png) fixed;
 }
 
 [data-magellan-expedition] {
@@ -160,6 +160,15 @@ form .panel {
 	color: red;
 }
 
+.accordion dd > a {
+background: rgba(0,0,0,.4);
+color: #fff;
+}
+
+.accordion dd > a:hover {
+background: rgba(0,0,0,.6);
+}
+
 .accordion .content.active {
 	background: #2a2a2a;
 	color: #fff;
@@ -167,6 +176,12 @@ form .panel {
 
 .content img {
 	margin-bottom: 15px;
+}
+
+footer {
+	background: rgba(0,0,0,.6);
+	width: 90%;
+	color: #fff;
 }
 
 ul.social {
